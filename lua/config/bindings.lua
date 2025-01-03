@@ -21,13 +21,13 @@ keymap.set('n', '<F7>', '<Cmd>NullLsInfo<CR>', { silent = true }, { desc = "Null
 
 -- Saving Bindings
 keymap.set({ 'n', 'v' }, '<C-s>', '<Esc><Cmd>w<CR>', { silent = true }, { desc = "Save" })
-keymap.set({ 'n', 'v' }, '<C-A-s>', '<Esc><Cmd>wa<CR>', { silent = true }, { desc = "Save All" })
-keymap.set({ 'i', 'n', 'v' }, '<A-w>', '<Esc><Cmd>wqa<CR>', { desc = "Save All and Quit" })
-keymap.set({ 'i', 'n', 'v' }, '<A-q>', '<Esc><Cmd>q!<CR>', { desc = "Quit" })
-keymap.set({ 'i', 'n', 'v' }, '<C-A-q>', '<Esc><Cmd>qa!<CR>', { desc = "Quit All" })
+-- keymap.set({ 'n', 'v' }, '<C-A-s>', '<Esc><Cmd>wa<CR>', { silent = true }, { desc = "Save All" })
+-- keymap.set({ 'i', 'n', 'v' }, '<A-w>', '<Esc><Cmd>wqa<CR>', { desc = "Save All and Quit" })
+-- keymap.set({ 'i', 'n', 'v' }, '<A-q>', '<Esc><Cmd>q!<CR>', { desc = "Quit" })
+-- keymap.set({ 'i', 'n', 'v' }, '<C-A-q>', '<Esc><Cmd>qa!<CR>', { desc = "Quit All" })
 
 keymap.set('i', '<C-s>', '<Esc><Cmd>wa<CR>==gi', { silent = true }, { desc = "Save all" })
-keymap.set('i', '<C-A-s>', '<Esc><Cmd>w<CR>==gi', { silent = true }, { desc = "Save" })
+-- keymap.set('i', '<C-A-s>', '<Esc><Cmd>w<CR>==gi', { silent = true }, { desc = "Save" })
 
 -- Moving Selections
 keymap.set('n', '<A-Down>', ':m .+1<CR>==', { silent = true }, { desc = "Move Selection Down" })
