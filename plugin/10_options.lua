@@ -113,7 +113,7 @@ local diagnostic_opts = {
   -- Show more details immediately for errors on the current line
   virtual_lines = false,
   virtual_text = {
-    current_line = true,
+    current_line = nil,
     severity = { min = 'ERROR', max = 'ERROR' },
   },
 
