@@ -52,6 +52,7 @@ vim.o.wrap           = false      -- Don't visually wrap lines (toggle with \w)
 vim.o.relativenumber = true
 
 vim.o.cursorlineopt  = 'screenline,number' -- Show cursor line per screen line
+vim.o.scrolloff      = 10
 
 -- Special UI symbols. More is set via 'mini.basics' later.
 vim.o.fillchars = 'eob: ,fold:╌'
@@ -114,7 +115,7 @@ local diagnostic_opts = {
   virtual_lines = false,
   virtual_text = {
     current_line = nil,
-    severity = { min = 'ERROR', max = 'ERROR' },
+    severity = { min = 'HINT', max = 'ERROR' },
   },
 
   -- Don't update diagnostics when typing
