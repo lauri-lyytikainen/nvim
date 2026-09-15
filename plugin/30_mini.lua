@@ -557,7 +557,9 @@ later(function() require('mini.jump').setup() end)
 --
 -- See also:
 -- - `:h MiniJump2d.gen_spotter` - list of available spotters
-later(function() require('mini.jump2d').setup() end)
+later(function() require('mini.jump2d').setup({
+  labels = 'asdfjklweruio'
+}) end)
 
 -- Special key mappings. Provides helpers to map:
 -- - Multi-step actions. Apply action 1 if condition is met; else apply
@@ -699,9 +701,7 @@ end)
 --   one of `<Leader>f` mappings defined in 'plugin/20_keymaps.lua'
 later(function() require('mini.pick').setup({
   window = {
-    config = {
-      width = vim.o.columns
-    }
+    config = {width = vim.o.columns}
   }
 }) end)
 

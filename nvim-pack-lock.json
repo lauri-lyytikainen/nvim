@@ -47,6 +47,14 @@
     "transparent.nvim": {
       "rev": "e00ca1cf09caef575edf8da7e5a8b9193893b4c7",
       "src": "https://github.com/xiyaowong/transparent.nvim"
+    },
+    "typst-preview.nvim": {
+      "rev": "1c2e19486397be1c580b560fc50ee36abe329c46",
+      "src": "https://github.com/chomosuke/typst-preview.nvim"
+    },
+    "venn.nvim": {
+      "rev": "b09c2f36ddf70b498281845109bedcf08a7e0de0",
+      "src": "https://github.com/jbyuki/venn.nvim"
     }
   }
 }

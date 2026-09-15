@@ -160,10 +160,13 @@ now_if_args(function()
     'https://github.com/mason-org/mason.nvim',
     'https://github.com/mason-org/mason-lspconfig.nvim',
     'https://github.com/MeanderingProgrammer/render-markdown.nvim',
+    'https://github.com/chomosuke/typst-preview.nvim',
+    'https://github.com/jbyuki/venn.nvim',
   })
   require('mason').setup()
   require('mason-lspconfig').setup()
   require('render-markdown').setup()
+  require('typst-preview').setup()
 end)
 
 -- Beautiful, usable, well maintained color schemes outside of 'mini.nvim' and
