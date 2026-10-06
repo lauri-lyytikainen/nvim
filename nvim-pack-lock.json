@@ -44,6 +44,10 @@
       "rev": "4663eb3ecd538bd5062628fb6d95bbe6bdca78f6",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
     },
+    "smear-cursor.nvim": {
+      "rev": "f63ff221158b5b0ca9de1d7d1ff2e0dce5649614",
+      "src": "https://github.com/sphamba/smear-cursor.nvim"
+    },
     "transparent.nvim": {
       "rev": "e00ca1cf09caef575edf8da7e5a8b9193893b4c7",
       "src": "https://github.com/xiyaowong/transparent.nvim"
@@ -55,6 +59,10 @@
     "venn.nvim": {
       "rev": "b09c2f36ddf70b498281845109bedcf08a7e0de0",
       "src": "https://github.com/jbyuki/venn.nvim"
+    },
+    "vim-diagon": {
+      "rev": "026a599e8038949edec4c383da09adb04f71c804",
+      "src": "https://github.com/wiwiiwiii/vim-diagon"
     }
   }
 }

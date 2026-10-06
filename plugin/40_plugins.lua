@@ -177,11 +177,14 @@ now_if_args(function()
 		"https://github.com/MeanderingProgrammer/render-markdown.nvim",
 		"https://github.com/chomosuke/typst-preview.nvim",
 		"https://github.com/jbyuki/venn.nvim",
+		"https://github.com/sphamba/smear-cursor.nvim",
+		"https://github.com/wiwiiwiii/vim-diagon",
 	})
 	require("mason").setup()
 	require("mason-lspconfig").setup()
 	require("render-markdown").setup()
 	require("typst-preview").setup()
+	require("smear_cursor").setup()
 end)
 
 -- Beautiful, usable, well maintained color schemes outside of 'mini.nvim' and
