@@ -115,6 +115,13 @@ now_if_args(function()
       formatterProseWrap = true,
 		},
 	})
+  vim.lsp.config("harper_ls", {
+    settings = {
+      ["harper-ls"] = {
+        dialect = "British",
+      }
+    },
+  })
 	-- Uncomment and tweak the following `vim.lsp.enable()` call to enable servers.
 	-- vim.lsp.enable({
 	-- 	"tinymist",
@@ -131,7 +138,7 @@ end)
 -- formatting setup.
 later(function()
 	add({ "https://github.com/stevearc/conform.nvim" })
-
+  
 	-- See also:
 	-- - `:h Conform`
 	-- - `:h conform-options`

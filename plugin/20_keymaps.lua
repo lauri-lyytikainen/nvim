@@ -14,6 +14,9 @@ local nmap = function(lhs, rhs, desc)
   vim.keymap.set('n', lhs, rhs, { desc = desc })
 end
 
+-- Terminal mode esc override
+vim.keymap.set('t', '<Esc>', [[<C-\><C-n>]], { desc = 'Exit internal terminal mode'})
+
 -- Paste linewise before/after current line
 -- Usage: `yiw` to yank a word and `]p` to put it on the next line.
 nmap('[p', '<Cmd>exe "iput! " . v:register<CR>', 'Paste Above')
