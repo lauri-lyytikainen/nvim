@@ -186,6 +186,8 @@ now_if_args(function()
     "https://github.com/jbyuki/venn.nvim",
     "https://github.com/sphamba/smear-cursor.nvim",
     "https://github.com/wiwiiwiii/vim-diagon",
+    "https://github.com/kdheepak/lazygit.nvim",
+    "https://github.com/nvim-lua/plenary.nvim",
   })
   require("mason").setup()
   require("mason-lspconfig").setup()
@@ -204,12 +206,12 @@ Config.now(function()
     --    'https://github.com/Shatur/neovim-ayu',
     "https://github.com/xiyaowong/transparent.nvim",
     "https://github.com/ellisonleao/gruvbox.nvim",
-    -- 'https://github.com/Senal-D-A-Gunaratna/matugen.nvim',
+    'https://github.com/Senal-D-A-Gunaratna/matugen.nvim',
   })
   require("transparent").setup()
-  -- require('matugen').setup({
-  --   palette_path = "~/.cache/matugen/nvim-colors.json"
-  -- })
+  require('matugen').setup({
+    palette_path = "~/.cache/matugen/nvim-colors.json"
+  })
   --
   --   -- Enable only one
   vim.cmd("color gruvbox")

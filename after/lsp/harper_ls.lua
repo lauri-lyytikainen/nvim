@@ -10,6 +10,9 @@ local is_diagram_line = function(line)
   return line:find('|', 1, true) ~= nil
     or line:find('+-', 1, true) ~= nil
     or line:find('\226[\148\149]') ~= nil
+    or line:find('▼') ~= nil
+    or line:find('▲') ~= nil
+
 end
 
 local on_publish = vim.lsp.diagnostic.on_publish_diagnostics
