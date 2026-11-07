@@ -188,12 +188,14 @@ now_if_args(function()
     "https://github.com/wiwiiwiii/vim-diagon",
     "https://github.com/kdheepak/lazygit.nvim",
     "https://github.com/nvim-lua/plenary.nvim",
+    "https://github.com/windwp/nvim-ts-autotag",
   })
   require("mason").setup()
   require("mason-lspconfig").setup()
   require("render-markdown").setup()
   require("typst-preview").setup()
   require("smear_cursor").setup()
+  require("nvim-ts-autotag").setup()
 end)
 
 -- Beautiful, usable, well maintained color schemes outside of 'mini.nvim' and

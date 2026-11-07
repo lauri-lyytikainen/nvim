@@ -36,6 +36,10 @@
       "rev": "221c43884319e791519f0d6c94a7f2fbcd653278",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
+    "nvim-man": {
+      "rev": "7fe6b3b78c71c9ef834c49e3dcbd955f7ed5c6cb",
+      "src": "https://github.com/paretje/nvim-man"
+    },
     "nvim-treesitter": {
       "rev": "e82ef6ae2c3eeb96c6916b29917f96bf630b2cdb",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
@@ -43,6 +47,10 @@
     "nvim-treesitter-textobjects": {
       "rev": "898ee307df58f854d11cd7edd06472574d48014e",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects"
+    },
+    "nvim-ts-autotag": {
+      "rev": "d7220b55e16ed3c04e88086256def5d282429493",
+      "src": "https://github.com/windwp/nvim-ts-autotag"
     },
     "plenary.nvim": {
       "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
@@ -75,6 +83,10 @@
     "vim-diagon": {
       "rev": "026a599e8038949edec4c383da09adb04f71c804",
       "src": "https://github.com/wiwiiwiii/vim-diagon"
+    },
+    "yazi.nvim": {
+      "rev": "ad984001db0216b8534d56d49323c91abb734b7e",
+      "src": "https://github.com/mikavilpas/yazi.nvim"
     }
   }
 }
